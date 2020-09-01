@@ -1,6 +1,6 @@
 # go-gqlgen-Server
 
-Go Server using graphQL to querie mocked database. 
+Go Server using graphQL to query database mocks. Can be used to start a project.
 
 ![serverRunning1](https://i.imgur.com/JTAcG7f.gif)
 
@@ -8,6 +8,7 @@ Go Server using graphQL to querie mocked database.
 
 ## Schema
 
+[Reference](/graph/schema.graphqls)
 ```
 type Mutation {
   createTodo(input: NewTodo!): Todo!
